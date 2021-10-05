@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	 background-image: url();
+}
+h2{
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: 10px;
+	padding: 20px;
+	color: #E2B0A6;
+	text-shadow: 1px 1px 1px #111;
+	background-color: #D6076B;
+}
+span{
+	font-size: 40px;
+	color: #7D7877;
+}
+p{
+	float: top;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #746F6E;
+}
+img:hover{
+	opacity: 0.5;
+	
+}
+
