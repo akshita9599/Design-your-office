@@ -1,0 +1,41 @@
+body{
+	font-family: sans-serif;
+	background-color: #FB4505;
+}
+h1{
+	background-color: #525654;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+  margin: 25px 0 50px;
+}
+.gallery{
+	margin: 10px 50px;
+}
+.gallery img{
+	filter: grayscale(80%);
+	padding: 15px;
+	transition: 1s;
+}
+.gallery img:hover{
+	cursor: pointer;
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+button{
+	top: 30%;
+ 	transform: translate(-50%, -50%);
+
+}
+
+.demo {
+  boder: ipx solid #fff;
+  padding: 10px 30px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.demo:hover {
+  background-color: #fff;
+  color: #000;
+}
